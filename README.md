@@ -26,7 +26,7 @@ class MaClasseConcrete extends BaseMaClasseAbstraite implements InterfaceMonInte
 }
 
 <h2>Commentaires</h2>
-
+<pre>
 /**
  * Classe Foo qui ne sert visiblement pas à grand-chose
  *
@@ -73,3 +73,4 @@ class Foo extends Bar implements Baz {
         return "Je m'appelle $this->_name";
     }
 }
+</pre>
