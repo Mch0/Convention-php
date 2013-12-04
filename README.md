@@ -2,6 +2,7 @@
 
 <h2>Nommage</h2>
 
+<pre>
 class MaClasseConcrete extends BaseMaClasseAbstraite implements InterfaceMonInterface {
 
  const UNE_CONSTANTE = "une valeur";
@@ -23,7 +24,7 @@ class MaClasseConcrete extends BaseMaClasseAbstraite implements InterfaceMonInte
     protected function _setBar ($b) {
         $this->_bar = $b;
     }
-}
+}</pre>
 
 <h2>Commentaires</h2>
 <pre>
